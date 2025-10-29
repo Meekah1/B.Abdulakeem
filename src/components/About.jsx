@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion as Motion } from 'framer-motion'
 import { Code2, Palette, Smartphone, Zap } from 'lucide-react'
+import meekah from '../assets/meekah.jpg'
 
 const About = () => {
   const features = [
@@ -86,9 +87,9 @@ const About = () => {
           >
             <div className="glass-effect rounded-2xl p-8 hover-lift">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                src={meekah}
                 alt="Profile"
-                className="w-full h-80 object-cover rounded-xl"
+                className="w-80 h-80 object-cover rounded-xl"
               />
             </div>
             {/* Floating elements */}
