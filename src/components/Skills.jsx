@@ -14,7 +14,8 @@ import {
   SiWix,
   SiCanva,
   SiTailwindcss,
-  SiFigma
+  SiFigma,
+  SiAngular
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -23,6 +24,7 @@ const Skills = () => {
       category: 'Frontend',
       skills: [
         { name: 'React', icon: SiReact, level: 90 },
+        { name: 'Angular', icon: SiAngular, level: 80 },
         { name: 'JavaScript', icon: SiJavascript, level: 90 },
         { name: 'TypeScript', icon: SiTypescript, level: 80 },
         { name: 'Tailwind CSS', icon: SiTailwindcss, level: 90 }
